@@ -15,6 +15,20 @@
 		6A0EBD501EED6180006FA171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0EBD4E1EED6180006FA171 /* LaunchScreen.storyboard */; };
 		6A0EBD5B1EED6180006FA171 /* PrintDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD5A1EED6180006FA171 /* PrintDemoTests.m */; };
 		6A0EBD661EED6180006FA171 /* PrintDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD651EED6180006FA171 /* PrintDemoUITests.m */; };
+		6A0EBD761EED6241006FA171 /* MVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD751EED6241006FA171 /* MVCController.m */; };
+		6A0EBD791EED6271006FA171 /* MVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD781EED6271006FA171 /* MVCView.m */; };
+		6A0EBD7C1EED6286006FA171 /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD7B1EED6286006FA171 /* Paper.m */; };
+		6A0EBD801EEE2344006FA171 /* MVPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD7F1EEE2344006FA171 /* MVPController.m */; };
+		6A0EBD831EEE237D006FA171 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD821EEE237D006FA171 /* Presenter.m */; };
+		6A0EBD861EEE2392006FA171 /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD851EEE2392006FA171 /* MVPView.m */; };
+		6A0EBD891EEE23DF006FA171 /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD881EEE23DF006FA171 /* MVPModel.m */; };
+		6A0EBD8D1EEE4267006FA171 /* MVVMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD8C1EEE4267006FA171 /* MVVMController.m */; };
+		6A0EBD901EEE42A9006FA171 /* MVVMPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD8F1EEE42A9006FA171 /* MVVMPaper.m */; };
+		6A0EBD931EEE42D1006FA171 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD921EEE42D1006FA171 /* MVVMView.m */; };
+		6A0EBD961EEE4305006FA171 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD951EEE4305006FA171 /* MVVMViewModel.m */; };
+		6A0EBD9D1EEE88CE006FA171 /* PrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD9C1EEE88CE006FA171 /* PrintController.m */; };
+		6A0EBDA01EEE894D006FA171 /* ServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EBD9F1EEE894D006FA171 /* ServiceFactory.m */; };
+		9598D316E1A65DA85C26C944 /* Pods_PrintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F302AD630F3A8B78D228E17E /* Pods_PrintDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A62AE01366CA2B369DF679E /* Pods-PrintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrintDemo/Pods-PrintDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6A0EBD3D1EED6180006FA171 /* PrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0EBD411EED6180006FA171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A0EBD431EED6180006FA171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,34 @@
 		6A0EBD611EED6180006FA171 /* PrintDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0EBD651EED6180006FA171 /* PrintDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintDemoUITests.m; sourceTree = "<group>"; };
 		6A0EBD671EED6180006FA171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0EBD741EED6241006FA171 /* MVCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCController.h; sourceTree = "<group>"; };
+		6A0EBD751EED6241006FA171 /* MVCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCController.m; sourceTree = "<group>"; };
+		6A0EBD771EED6271006FA171 /* MVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCView.h; sourceTree = "<group>"; };
+		6A0EBD781EED6271006FA171 /* MVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCView.m; sourceTree = "<group>"; };
+		6A0EBD7A1EED6286006FA171 /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
+		6A0EBD7B1EED6286006FA171 /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
+		6A0EBD7E1EEE2344006FA171 /* MVPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPController.h; sourceTree = "<group>"; };
+		6A0EBD7F1EEE2344006FA171 /* MVPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPController.m; sourceTree = "<group>"; };
+		6A0EBD811EEE237D006FA171 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		6A0EBD821EEE237D006FA171 /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		6A0EBD841EEE2392006FA171 /* MVPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
+		6A0EBD851EEE2392006FA171 /* MVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
+		6A0EBD871EEE23DF006FA171 /* MVPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		6A0EBD881EEE23DF006FA171 /* MVPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		6A0EBD8B1EEE4267006FA171 /* MVVMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMController.h; sourceTree = "<group>"; };
+		6A0EBD8C1EEE4267006FA171 /* MVVMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMController.m; sourceTree = "<group>"; };
+		6A0EBD8E1EEE42A9006FA171 /* MVVMPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMPaper.h; sourceTree = "<group>"; };
+		6A0EBD8F1EEE42A9006FA171 /* MVVMPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMPaper.m; sourceTree = "<group>"; };
+		6A0EBD911EEE42D1006FA171 /* MVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		6A0EBD921EEE42D1006FA171 /* MVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		6A0EBD941EEE4305006FA171 /* MVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		6A0EBD951EEE4305006FA171 /* MVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		6A0EBD9B1EEE88CE006FA171 /* PrintController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintController.h; sourceTree = "<group>"; };
+		6A0EBD9C1EEE88CE006FA171 /* PrintController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintController.m; sourceTree = "<group>"; };
+		6A0EBD9E1EEE894D006FA171 /* ServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceFactory.h; sourceTree = "<group>"; };
+		6A0EBD9F1EEE894D006FA171 /* ServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceFactory.m; sourceTree = "<group>"; };
+		F302AD630F3A8B78D228E17E /* Pods_PrintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506B7609CC0F67AF75406F0 /* Pods-PrintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrintDemo/Pods-PrintDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9598D316E1A65DA85C26C944 /* Pods_PrintDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,8 @@
 				6A0EBD591EED6180006FA171 /* PrintDemoTests */,
 				6A0EBD641EED6180006FA171 /* PrintDemoUITests */,
 				6A0EBD3E1EED6180006FA171 /* Products */,
+				F9850332F470238ACA100D76 /* Pods */,
+				80BFEB4A2258B3CF58E6CAD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,9 @@
 		6A0EBD3F1EED6180006FA171 /* PrintDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6A0EBD971EEE883A006FA171 /* iOS分层架构 */,
+				6A0EBD8A1EEE3647006FA171 /* MVVM */,
+				6A0EBD731EED6219006FA171 /* MVC */,
 				6A0EBD431EED6180006FA171 /* AppDelegate.h */,
 				6A0EBD441EED6180006FA171 /* AppDelegate.m */,
 				6A0EBD461EED6180006FA171 /* ViewController.h */,
@@ -140,6 +189,102 @@
 			path = PrintDemoUITests;
 			sourceTree = "<group>";
 		};
+		6A0EBD731EED6219006FA171 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD741EED6241006FA171 /* MVCController.h */,
+				6A0EBD751EED6241006FA171 /* MVCController.m */,
+				6A0EBD771EED6271006FA171 /* MVCView.h */,
+				6A0EBD781EED6271006FA171 /* MVCView.m */,
+				6A0EBD7A1EED6286006FA171 /* Paper.h */,
+				6A0EBD7B1EED6286006FA171 /* Paper.m */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		6A0EBD7D1EED70D7006FA171 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD7E1EEE2344006FA171 /* MVPController.h */,
+				6A0EBD7F1EEE2344006FA171 /* MVPController.m */,
+				6A0EBD811EEE237D006FA171 /* Presenter.h */,
+				6A0EBD821EEE237D006FA171 /* Presenter.m */,
+				6A0EBD841EEE2392006FA171 /* MVPView.h */,
+				6A0EBD851EEE2392006FA171 /* MVPView.m */,
+				6A0EBD871EEE23DF006FA171 /* MVPModel.h */,
+				6A0EBD881EEE23DF006FA171 /* MVPModel.m */,
+			);
+			name = MVP;
+			sourceTree = "<group>";
+		};
+		6A0EBD8A1EEE3647006FA171 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD8B1EEE4267006FA171 /* MVVMController.h */,
+				6A0EBD8C1EEE4267006FA171 /* MVVMController.m */,
+				6A0EBD8E1EEE42A9006FA171 /* MVVMPaper.h */,
+				6A0EBD8F1EEE42A9006FA171 /* MVVMPaper.m */,
+				6A0EBD911EEE42D1006FA171 /* MVVMView.h */,
+				6A0EBD921EEE42D1006FA171 /* MVVMView.m */,
+				6A0EBD941EEE4305006FA171 /* MVVMViewModel.h */,
+				6A0EBD951EEE4305006FA171 /* MVVMViewModel.m */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		6A0EBD971EEE883A006FA171 /* iOS分层架构 */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD9A1EEE8892006FA171 /* DataAccessLayer */,
+				6A0EBD991EEE8874006FA171 /* ServiceLayer */,
+				6A0EBD981EEE885B006FA171 /* ApplicationLayer */,
+			);
+			name = "iOS分层架构";
+			sourceTree = "<group>";
+		};
+		6A0EBD981EEE885B006FA171 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD9B1EEE88CE006FA171 /* PrintController.h */,
+				6A0EBD9C1EEE88CE006FA171 /* PrintController.m */,
+				6A0EBD7D1EED70D7006FA171 /* MVP */,
+			);
+			name = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		6A0EBD991EEE8874006FA171 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6A0EBD9E1EEE894D006FA171 /* ServiceFactory.h */,
+				6A0EBD9F1EEE894D006FA171 /* ServiceFactory.m */,
+			);
+			name = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		6A0EBD9A1EEE8892006FA171 /* DataAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataAccessLayer;
+			sourceTree = "<group>";
+		};
+		80BFEB4A2258B3CF58E6CAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302AD630F3A8B78D228E17E /* Pods_PrintDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9850332F470238ACA100D76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A62AE01366CA2B369DF679E /* Pods-PrintDemo.debug.xcconfig */,
+				F506B7609CC0F67AF75406F0 /* Pods-PrintDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0EBD6A1EED6180006FA171 /* Build configuration list for PBXNativeTarget "PrintDemo" */;
 			buildPhases = (
+				12504C5EEAA21B1C6128E4C1 /* [CP] Check Pods Manifest.lock */,
 				6A0EBD391EED6180006FA171 /* Sources */,
 				6A0EBD3A1EED6180006FA171 /* Frameworks */,
 				6A0EBD3B1EED6180006FA171 /* Resources */,
+				D430BDC0107D868FC61ACF13 /* [CP] Embed Pods Frameworks */,
+				0F392F34D7F7AE25579E6E20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +416,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F392F34D7F7AE25579E6E20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintDemo/Pods-PrintDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12504C5EEAA21B1C6128E4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D430BDC0107D868FC61ACF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintDemo/Pods-PrintDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A0EBD391EED6180006FA171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0EBD961EEE4305006FA171 /* MVVMViewModel.m in Sources */,
+				6A0EBD9D1EEE88CE006FA171 /* PrintController.m in Sources */,
+				6A0EBD7C1EED6286006FA171 /* Paper.m in Sources */,
+				6A0EBD931EEE42D1006FA171 /* MVVMView.m in Sources */,
+				6A0EBDA01EEE894D006FA171 /* ServiceFactory.m in Sources */,
+				6A0EBD891EEE23DF006FA171 /* MVPModel.m in Sources */,
+				6A0EBD761EED6241006FA171 /* MVCController.m in Sources */,
+				6A0EBD801EEE2344006FA171 /* MVPController.m in Sources */,
 				6A0EBD481EED6180006FA171 /* ViewController.m in Sources */,
 				6A0EBD451EED6180006FA171 /* AppDelegate.m in Sources */,
 				6A0EBD421EED6180006FA171 /* main.m in Sources */,
+				6A0EBD831EEE237D006FA171 /* Presenter.m in Sources */,
+				6A0EBD901EEE42A9006FA171 /* MVVMPaper.m in Sources */,
+				6A0EBD8D1EEE4267006FA171 /* MVVMController.m in Sources */,
+				6A0EBD861EEE2392006FA171 /* MVPView.m in Sources */,
+				6A0EBD791EED6271006FA171 /* MVCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +631,7 @@
 		};
 		6A0EBD6B1EED6180006FA171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A62AE01366CA2B369DF679E /* Pods-PrintDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrintDemo/Info.plist;
@@ -433,6 +643,7 @@
 		};
 		6A0EBD6C1EED6180006FA171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F506B7609CC0F67AF75406F0 /* Pods-PrintDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrintDemo/Info.plist;
@@ -507,6 +718,7 @@
 				6A0EBD6C1EED6180006FA171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0EBD6D1EED6180006FA171 /* Build configuration list for PBXNativeTarget "PrintDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +727,7 @@
 				6A0EBD6F1EED6180006FA171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0EBD701EED6180006FA171 /* Build configuration list for PBXNativeTarget "PrintDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +736,7 @@
 				6A0EBD721EED6180006FA171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
